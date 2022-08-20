@@ -1,0 +1,126 @@
+:root{
+    --rifle-green: #3e503cff;
+    --artichoke: #949c81ff;
+    --eggshell: #f0e6d1ff;
+    --dark-salmon: #ee9c81ff;
+    --apricot: #efc1a9ff;
+}
+body{
+    background-color: wheat;
+}
+.mazecol{
+    background-color: blue;
+    border:1px solid black;
+    padding:20px;
+}
+.mazerow{
+    display: flex;
+    flex-direction: row;
+}
+body,html,#root{
+    height: 100%;
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+    font-family: quicksand;
+}
+#MainHoldTag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    height: 100%;
+}
+#Signup,#Login{
+    background-color: var(--apricot);
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px rgb(79, 72, 72);
+    font-size: larger;
+}
+.inputType,#noOfRows,#noOfCols{
+    border: none;
+    background-color: white;
+    border-radius:8px ;
+    box-shadow: 1px 1px 1px rgb(79, 72, 72);
+    font-size: large;
+    margin-bottom: 2px;
+    padding: 4px;
+    font-family: quicksand;
+}
+#signupButton,#loginButton{
+    border: none;
+    background-color: var(--rifle-green);
+    color: var(--eggshell);
+    padding: 4px;
+    border-radius: 2px;
+    font-size: medium;
+    font-family: quicksand;
+}
+#TotalContent{
+    display:flex;
+    flex-direction:row ;
+    justify-content: flex-start;
+}
+#SideBar{
+    flex: 0 0 200px;
+    background-color: var(--apricot);
+}
+#SideBarOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center ;
+}
+#mymazebutton,#explorebutton,#makemazesbutton{
+    background-color: var(--artichoke);
+    width:100px;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+#TotalContent{
+    height: 100%;
+}
+#MainContent{
+    padding:0px 8px ;
+    height: 100%;
+}
+#userMazesTitle{
+    padding:0px;
+}
+#userMazeContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#makeMazesTitle{
+    display: flex;
+    font-size: larger;
+    font-weight: 600
+}
+#gameOptions{
+    display: flex;
+    flex-direction: column;
+}
+.modeDivContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.TypeOfMode{
+    background-color: var(--dark-salmon);
+    padding:9px;
+    border-radius: 8px;
+}
+.FormStuff button{
+    margin: 4px 0px;
+    border: none ;
+    background-color: var(--rifle-green);
+    color: var(--eggshell);
+    padding: 4px;
+    border-radius: 4px;
+    font-size: medium;
+    font-family: quicksand;
+}
